@@ -10,11 +10,56 @@ export default function Index() {
       </Head>
 
       <div className="flex justify-evenly">
-        <div className="bg-red-500">asd</div>
-        <div className="bg-red-500">asd</div>
-        <div className="bg-red-500">asd</div>
-        <div className="bg-red-500">asd</div>
-        <div className="bg-red-500">asd</div>
+        <div className="p-2">
+          {/* product image */}
+          <div
+            className="w-48 h-48 bg-yellow-500 bg-cover bg-center mx-auto"
+            style={{ backgroundImage: `url("/img/1.jpg")` }}
+          ></div>
+
+          {/* product name */}
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div className="p-2">
+          {/* product image */}
+          <div
+            className="w-48 h-48 bg-yellow-500 bg-cover bg-center mx-auto"
+            style={{ backgroundImage: `url("/img/2.jpg")` }}
+          ></div>
+
+          {/* product name */}
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div className="p-2">
+          {/* product image */}
+          <div
+            className="w-48 h-48 bg-yellow-500 bg-cover bg-center mx-auto"
+            style={{ backgroundImage: `url("/img/3.jpg")` }}
+          ></div>
+
+          {/* product name */}
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div className="p-2">
+          {/* product image */}
+          <div
+            className="w-48 h-48 bg-yellow-500 bg-cover bg-center mx-auto"
+            style={{ backgroundImage: `url("/img/4.jpg")` }}
+          ></div>
+
+          {/* product name */}
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div className="p-2">
+          {/* product image */}
+          <div
+            className="w-48 h-48 bg-yellow-500 bg-cover bg-center mx-auto"
+            style={{ backgroundImage: `url("/img/5.jpg")` }}
+          ></div>
+
+          {/* product name */}
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
       </div>
     </div>
   );
