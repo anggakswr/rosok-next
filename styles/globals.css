@@ -14,3 +14,11 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.link-white {
+  @apply text-white;
+}
+
+.link-white:hover {
+  @apply text-green-700;
+}
