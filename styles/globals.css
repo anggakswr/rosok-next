@@ -22,3 +22,11 @@ a {
 .link-white:hover {
   @apply text-green-700;
 }
+
+.link-green {
+  @apply text-green-500;
+}
+
+.link-green:hover {
+  @apply text-green-700;
+}

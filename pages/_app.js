@@ -6,7 +6,10 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Nav />
-      <Component {...pageProps} />
+
+      <div className="px-3 md:px-32 py-3">
+        <Component {...pageProps} />
+      </div>
     </>
   );
 }
